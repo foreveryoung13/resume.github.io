@@ -1,0 +1,62 @@
+body { 
+	background-color: #333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+}
+
+.container .navbar.navbar-inverse.navbar-static-top {
+	margin-top: 1.5em;
+}
+
+.container .jumbotron {
+	background-color: #232323;
+	text-align: center;
+}
+
+.container .jumbotron .jumbo img {
+	width: 13.75em; 
+	height: 13.75em; 
+	margin-top: 0.75em;
+	-moz-border-radius: 6.875em; 
+	-webkit-border-radius: 6.875em; 
+	border-radius: 6.875em;
+	border:3px solid white;
+}
+
+.container .jumbotron h1 {
+	color: white;
+	margin-top: -0.4em;
+}
+
+.container .jumbotron p {
+	color: white;
+	margin-top: 0.75em;
+	text-align: left;
+}
+
+hr{
+	margin-top: -0.75em;
+}
+
+.par-one p{
+	color: white;
+	font-style: italic;
+}
+
+.row .col-md-6 .jumbo h2{
+	color: white;
+	text-align: center;
+	margin-top: 0.2em;
+}
+
+.row .col-md-6 .jumbo p {
+	color: white;
+	text-align: center;
+	margin-top: -0.3em;
+}
+
+.row .menu {
+	display: inline-block;
+}
+
