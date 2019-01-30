@@ -64,11 +64,18 @@ ul > li {
   }
 }
 
-
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (max-width: 350px) {
-.jumbotron .jumbotron-inside .menu ul li h4 a {
-    font-size: 12px;
+@media screen and (max-width: 600px) {
+.menu li a {
+    font-size: 10px;
   }
 }
 
+@media screen and (max-width: 360px) {
+.menu li a {
+    font-size: 8px;
+  }
+}
+
+.progress-setting{
+	margin-bottom: 0 !important;
+}
