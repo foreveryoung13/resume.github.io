@@ -72,10 +72,11 @@ ul > li {
 
 @media screen and (max-width: 360px) {
 .menu li a {
-    font-size: 8px;
+    font-size: 10px;
   }
+
+.menu {
+	margin-left: -2em;
 }
 
-.progress-setting{
-	margin-bottom: 0 !important;
 }
