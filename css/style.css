@@ -254,8 +254,11 @@ a {
 }
 
 .bg-overlay {
-    background: rgba(6, 52, 72, 0.67); 
-    /*background: rgba(360, 80, 32, 1); */ 
+    /* background: rgba(6, 52, 72, 0.67); */
+    /* background: rgba(360, 80, 32, 1);  */ 
+    animation-name: colorChange;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
     position: absolute;
     top: 0;
     right: 0;
@@ -264,6 +267,34 @@ a {
     width: 100%;
     height: 100%;
 }
+
+@keyframes colorChange {
+        0% {
+            background: red;     
+            /*background: rgba(142, 225, 250, 1);    */
+        }
+        20% {
+            background: blue;   
+           /*background: rgba(127, 200, 225, 1);   */
+        }
+        40% {
+            background: green;     
+           /*background: rgba(100, 160, 180, 1);   */
+        }
+        60% {
+            background: orange;     
+           /*background: rgba(70, 111, 124, 1);  */
+        }
+        80% {
+           /*background: rgba(60, 96, 109, 1);*/
+            background: purple;    
+        }
+        100% {
+           /*background: rgba(60, 96, 109, 1);*/
+            background: red;     
+        }
+}
+
 
 .btn {
     padding: 12px 26px;
