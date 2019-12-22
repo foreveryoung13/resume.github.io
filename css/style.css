@@ -254,7 +254,8 @@ a {
 }
 
 .bg-overlay {
-    /* background: rgba(6, 52, 72, 0.67); */
+    background: rgba(6, 52, 72, 0.67); 
+    /*background: rgba(360, 80, 32, 1); */ 
     position: absolute;
     top: 0;
     right: 0;
